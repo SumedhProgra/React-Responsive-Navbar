@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.pn {
+  position: fixed;
+}
+.subpn {
+  width: 100vw;
+}
+.vnavfpart {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 2%;
+  font-size: 1.1rem;
+  position: relative;
+}
+.navbarhlinks div {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.navbarhlinks div .navbarhlinksn {
+  text-decoration: none;
+}
+.listlogo {
+  color: darkblue;
+}
+.listlogo:hover {
+  cursor: pointer;
+}
+@media (max-width: 701px) {
+  .navbarhlinks {
+    display: none;
+  }
+}
+
+/*  Secoand  Navpartdesine  */
+
+.secnavprt {
+  background-color: lightgray;
+  height: 100vh;
+  width: 100%;
+  top: 5vh;
+  position: fixed;
+  text-align: center;
+  vertical-align: end;
+}
+
+.subsecnavprt {
+  padding-top: 10%;
+  display: grid;
+  row-gap: 50%;
+}
+.subsecnavprt .navbarhlinksn {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.subsecnavprt .navbarhlinksn:hover {
+  color: rgb(12, 64, 80);
+}
+.fd {
+  height: 95vh;
+}
+@media (min-width: 700px) {
+  .secnavprt {
+    display: none;
+  }
+  .listlogo {
+    display: none;
+  }
+}
